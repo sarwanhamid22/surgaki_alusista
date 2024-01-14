@@ -45,7 +45,7 @@ class BeritaController extends Controller
             'penulis' => 'required',
             'tanggal_publikasi' => 'required',
             'deskripsi_berita' => 'required',
-            'gambar' => 'image|file|',
+            'gambar' => 'file|mimes:jpeg,png,gif,bmp,svg,webp,tiff',
             'kategori' => 'required',
 
 
@@ -102,7 +102,7 @@ class BeritaController extends Controller
             'penulis' => 'required',
             'tanggal_publikasi' => 'required',
             'deskripsi_berita' => 'required',
-            'gambar' => 'image|file|',
+            'gambar' => 'file|mimes:jpeg,png,gif,bmp,svg,webp,tiff',
             'kategori' => 'required',
 
         ];

@@ -5,6 +5,7 @@
     <h2 class="my-6 text-2xl font-semibold text-gray-700">
         Riwayat Operasi Alusista
     </h2>
+    @can('is-admin')
     <!-- CTA -->
     <a class="flex items-center justify-between p-4 mb-8 text-sm font-semibold text-purple-100 bg-purple-600 rounded-lg shadow-md focus:outline-none focus:shadow-outline-purple"
         href="{{route('riwayat.create')}}">
@@ -18,6 +19,7 @@
         </div>
         <span>Tambah &RightArrow;</span>
     </a>
+    @endcan
 
     <div class="w-full overflow-hidden rounded-lg shadow-xs">
         <div class="w-full overflow-x-auto">

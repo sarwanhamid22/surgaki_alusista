@@ -155,7 +155,7 @@
                         <h3 class="mt-4 mb-3 text-xl font-semibold xl:text-2xl">{{ $data->judul_pelatihan }}
                         </h3>
                         <p class="mb-4 text-base font-light">{!!
-                            Str::limit(html_entity_decode($data->deskripsi_pelatihan), 20, '...') !!}
+                            Str::limit(html_entity_decode($data->deskripsi_pelatihan), 100, '...') !!}
                         </p>
                         <a href="{{ $data->link }}" target="_blank"
                             class="inline-block cursor-pointer select-none rounded-full border border-gray-800 bg-gray-800 px-2 py-1 text-center align-middle text-sm font-semibold leading-normal text-white no-underline shadow-sm">Download

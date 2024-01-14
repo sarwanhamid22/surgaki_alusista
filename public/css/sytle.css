@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #2E2E2E;
+
+}
+
+.btn-danger{
+    background-color: #4B5320;
+    border-radius: 10px;
+    border-color: #4B5320;
+    padding: 10px 30px;
+}
+
+.btn-danger:hover {
+    background: #567E3A;
+    text-decoration: none;
+    border-color: #4B5320;
+}
+
+.nav-item .nav-link{
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.scroll-nav-active{
+    background-color: #4B5320;
+    /* border-bottom: 1px solid #4B5320; */
+    box-shadow: 1px 1px 11px -1px rgba(8, 234, 49, 0.08);
+}
+
+.text-nav-active{
+    color: black;
+}
+
+@media screen and (min-width: 450px){
+    .hero-title{
+        font-size: 35px;
+        font-weight: 600;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 550px){
+    .hero-title{
+        font-size: 35px;
+        font-weight: 600;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .hero-title{
+        font-size: 65px;
+        font-weight: 600;
+        font-weight: bold;
+    }
+}
+
+#hero{
+    background-image: url("../../assets/img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+
+.hero-title{
+    padding-top: 200px;
+    color: #4B5320;
+}
+
+/* .hero-title{
+    font-size: 65px;
+    font-weight: 600;
+    font-weight: bold;
+} */
+
+.tentangkami-title{
+    color: #4B5320;
+    font-size: 50px;
+}
+
+#tentangkami img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem; 
+}
+
+.btn-outline-danger{
+    background-color: #4B5320;
+    border-radius: 10px;
+    border-color: #4B5320;
+    padding: 10px 30px;
+}
+
+.btn-outline-danger:hover {
+    background: #567E3A;
+    text-decoration: none;
+    border-color: #4B5320;
+}
+
+.pangkalan-title{
+    color: #4B5320;
+    font-size: 50px;
+}
+
+.section-operasimiliter{
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax {
+    background-image: url("../../assets/img/bg_operasi1.JPG");
+
+
+}
+
+.operasimiliter-title{
+    color: #4B5320;
+    font-size: 50px;
+}
+
+.btn-outline-white{
+    background-color: #4B5320;
+    border-radius: 10px;
+    border-color: #4B5320;
+    padding: 10px 30px;
+}
+
+.btn-outline-white:hover {
+    background: #567E3A;
+    text-decoration: none;
+    border-color: #4B5320;
+}
+
+.img-hover-zoom {
+    transition: transform 0.5s, box-shadow 0.5s;
+    will-change: transform;
+}
+
+.img-hover-zoom:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+

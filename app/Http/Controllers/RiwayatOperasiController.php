@@ -99,4 +99,11 @@ class RiwayatOperasiController extends Controller
     {
         //
     }
+
+    public function getAlusistaName($id)
+    {
+        $alusista = Alusista::find($id);
+        return response()->json(['nama_alusista' => $alusista->nama_alusista]);
+    }
+
 }

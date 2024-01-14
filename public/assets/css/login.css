@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-body,
-html {
-    font-family: "Montserrat", sans-serif;
+body ,html {
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     background-color: white;
     height: 100%;
@@ -34,14 +33,15 @@ input[type="password"] {
     height: 35px;
     border-radius: 20px;
     font-weight: 700;
-    border-color: #4b5320;
-    background-color: #4b5320;
+    border-color: #4B5320;
+    background-color: #4B5320;
+
 }
 
-.btn-login:hover {
-    background: #567e3a;
+.btn-login:hover{
+    background: #567E3A;
     text-decoration: none;
-    border-color: #4b5320;
+    border-color: #4B5320;
 }
 
 .link {

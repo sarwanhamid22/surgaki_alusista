@@ -190,7 +190,10 @@
                             F Y') }}
                         </span>
                     </span>
-                    <p>{!!html_entity_decode($data->deskripsi_berita)!!}</p>
+                    @php
+                    $firstSentence = explode('.', strip_tags($data->deskripsi_berita))[0];
+                @endphp
+                <p>{{ $firstSentence }}</p>
                 </div>
             </a>
             @endforeach
